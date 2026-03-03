@@ -23,6 +23,7 @@
     "./package.json": "./package.json"
   },
   "scripts": {
+    "prepare": "npm run build",
     "build": "tsdown",
     "dev": "tsdown --watch",
     "clean": "git clean -fdX --exclude=\"!.env\"",
