@@ -444,7 +444,7 @@ export function convertA2AEventToAGUIEvents(
     if (statusMessage && statusMessage.kind === "message") {
       return convertMessageToEvents(statusMessage as A2AMessage, options, aliasKey);
     }
-    return events;
+    // return events;
   }
 
   if (isA2ATask(event)) {
